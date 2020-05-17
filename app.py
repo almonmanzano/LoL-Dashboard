@@ -8,10 +8,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import networkx as nx
 import os
-from boto.s3.connection import S3Connection
 
 # Global variables
-API_KEY = S3Connection(os.environ['API_KEY'])
+API_KEY = os.environ.get('API_KEY')
 REGION = 'euw1'
 QUEUE = 'RANKED_SOLO_5x5'
 watcher = LolWatcher(API_KEY)
