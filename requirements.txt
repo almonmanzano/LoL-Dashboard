@@ -1,0 +1,9 @@
+riotwatcher
+pandas
+plotly
+dash
+dash-renderer
+dash-core-components
+dash-html-components
+networkx
+gunicorn
