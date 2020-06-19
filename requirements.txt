@@ -1,3 +1,4 @@
+gunicorn
 riotwatcher
 pandas
 plotly
@@ -6,4 +7,3 @@ dash-renderer
 dash-core-components
 dash-html-components
 networkx
-gunicorn
